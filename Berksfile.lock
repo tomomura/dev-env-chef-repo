@@ -1,0 +1,8 @@
+DEPENDENCIES
+  ruby_rbenv
+
+GRAPH
+  ruby_build (0.8.0)
+  ruby_rbenv (1.0.1)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)

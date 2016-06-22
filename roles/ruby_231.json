@@ -1,0 +1,19 @@
+{
+  "name": "ruby_231",
+  "default_attributes": {
+    "rbenv": {
+      "user_rubies": [
+        "2.3.1"
+      ],
+      "user_gems": {
+        "2.3.1": [
+          { "name": "bundler" }
+        ]
+      }
+    }
+  },
+  "run_list": [
+    "recipe[ruby_build]",
+    "recipe[ruby_rbenv::user]"
+  ]
+}
